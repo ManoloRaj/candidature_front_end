@@ -1,0 +1,28 @@
+.main_container_select {
+  font-size: 14px;
+  border-radius: 5px;
+  height: -moz-min-content;
+  height: min-content;
+  transition: 0.5s;
+  width: 600px;
+}
+.main_container_select .options_title {
+  background-color: rgb(199, 199, 199);
+  border-radius: 5px;
+  padding: 10px;
+}
+.main_container_select .liste {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: -moz-min-content;
+  height: min-content;
+}
+.main_container_select .liste .container_rows {
+  display: grid;
+  grid-template-columns: 10% 80%;
+  border-bottom: solid rgb(203, 203, 203) 1px;
+  padding: 5px;
+  font-size: 12px;
+  width: 400px;
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */

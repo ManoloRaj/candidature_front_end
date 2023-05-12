@@ -1,0 +1,278 @@
+body {
+    text-align: left;
+    font-size: 30px;
+    padding-top: 50px;
+    background-image: url("./images/background.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.logo_fid {
+    text-align: center;
+
+    img {
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0);
+        margin: auto;
+        width: min-content;
+        height: 70px;
+    }
+}
+
+.tableau  {
+    width: 100%;
+    margin: auto;
+
+    .tab{
+        box-shadow: 0 5px 5px grey;
+    }
+    
+}
+
+.main_container {
+    cursor: pointer;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    //background-color: rgb(204, 204, 204);
+    box-shadow: 0 2px 20px rgb(90, 90, 90);
+    border: none;
+    //border-radius: 10px 10px 0 0;
+    //padding: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.897);
+    backdrop-filter: blur(5px);
+
+    .title {
+        position: sticky;
+        top: 0;
+        color: white;
+        //font-weight: bold;
+        background-color: #00408c;
+        text-align: center;
+        font-size: 25px;
+        padding: 20px;
+        //border-radius: 10px 10px 0 0;
+    }
+
+
+
+    .container1 {
+        padding-top: 10px;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #5a5a5a;
+        padding: 20px;
+
+        .message {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border : 1px solid grey;
+        }
+
+        .container_button{
+            text-align: center;
+            select {
+                //box-shadow: 2px 2px 5px rgb(184, 184, 184);
+                border: rgb(163, 163, 163) solid 0.5px;
+                border-radius: 3px;
+                padding: 7px;
+                outline: none;
+                -webkit-transition: 0.5s;
+            }
+
+            input:focus,
+            textarea:focus,
+            select:focus {
+                border: 0.5px solid #3f3f3f;
+                box-shadow: 2px 2px 10px rgb(184, 184, 184);
+                transform: scale(1.04);
+            }
+        }
+        .container1_1 {
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 20px;
+            font-weight: bold;
+
+            -moz-user-select: none;
+            /* Firefox */
+            -webkit-user-select: none;
+            /* Chrome, Safari, Opéra depuis la version 15 */
+            -ms-user-select: none;
+            /* Internet explorer depuis la version 10 et Edge */
+            user-select: none;
+            /* Propriété standard */
+        }
+
+
+
+        .container1_2 {
+            padding: 30px;
+
+            .container_row {
+                margin: 10px;
+                display: grid;
+                grid-template-columns: 50% 50%;
+
+
+
+                //border: 1px solid black;
+                .adr {
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+
+                }
+
+                input,
+                textarea,
+                select {
+                    //box-shadow: 2px 2px 5px rgb(184, 184, 184);
+                    border: rgb(163, 163, 163) solid 0.5px;
+                    border-radius: 3px;
+                    padding: 7px;
+                    width: 100%;
+                    outline: none;
+                    -webkit-transition: 0.5s;
+                }
+
+                input:focus,
+                textarea:focus,
+                select:focus {
+                    border: 0.5px solid #3f3f3f;
+                    box-shadow: 2px 2px 10px rgb(184, 184, 184);
+                    transform: scale(1.04);
+                }
+
+                #nom {
+                    text-transform: uppercase;
+                }
+
+                #lot {
+                    text-transform: capitalize;
+                }
+
+                #adresse {
+                    text-transform: capitalize;
+                }
+
+                #raison_sociale {
+                    text-transform: capitalize;
+                }
+
+                #adresse_cf {
+                    text-transform: capitalize;
+                }
+
+                #activite {
+                    text-transform: capitalize;
+                }
+
+                #domaine {
+                    text-transform: capitalize;
+                }
+
+                #organisme {
+                    text-transform: capitalize;
+                }
+
+                #description {
+                    text-transform: capitalize;
+                }
+
+                #reference_contrat {
+                    text-transform: capitalize;
+                }
+
+                #prenom {
+                    text-transform: capitalize;
+                }
+
+                .left {
+                    font-weight: bold;
+                    -moz-user-select: none;
+                    /* Firefox */
+                    -webkit-user-select: none;
+                    /* Chrome, Safari, Opéra depuis la version 15 */
+                    -ms-user-select: none;
+                    /* Internet explorer depuis la version 10 et Edge */
+                    user-select: none;
+                    /* Propriété standard */
+                }
+
+                .multiselect{
+                   display: flex;
+                }
+            }
+        }
+
+        .container1_3 {
+            //bouton
+            margin-left: auto;
+            margin-right: 5%;
+            padding-top: 10px;
+            width: 70%;
+            display: grid;
+            grid-template-columns: auto auto auto;
+
+            .button {
+
+                padding: 5px;
+
+                button {
+                    cursor: pointer;
+                    width: 100%;
+                    padding: 15px;
+                    background: #00408c;
+                    border-radius: 2px;
+                    box-shadow: 0 2px 10px rgb(131, 131, 131);
+                    text-transform: uppercase;
+                    font-weight: lighter;
+                    font-size: 14px;
+                    margin: 5px;
+                    color: white;
+                    border: #00408c 2px solid;
+                    transition: 0.5s;
+                }
+
+                button:hover {
+                    border: 2px solid #00408c;
+                    background-color: white;
+                    color: #00408c;
+                }
+
+                .annuler {
+                    background: rgb(255, 255, 255);
+                    color: rgb(219, 0, 0);
+                    border: rgb(219, 0, 0) 2px solid;
+                }
+
+                .annuler:hover {
+                    background: rgb(173, 29, 29);
+                    border: rgb(219, 0, 0) 2px solid;
+                    color: rgb(255, 255, 255);
+                }
+
+                .terminer {
+                    background: rgb(255, 255, 255);
+                    color: #0d6e08;
+                    border: #0d6e08 2px solid;
+                }
+
+                .terminer:hover {
+                    background: #0d6e08;
+                    border: #0d6e08 2px solid;
+                    color: rgb(255, 255, 255);
+                }
+
+
+            }
+
+
+        }
+
+
+    }
+}
