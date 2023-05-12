@@ -12,7 +12,5 @@ Reactjs application for submitting job application, it contains: file upload, fo
   </p>
   
   <h2>Here are some screenshot</h2>
-  <p>
     <img scr="capture1.png" />
-  </p>
 </div>
